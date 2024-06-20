@@ -4,11 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Styled Table</title>
     <link rel="stylesheet" href="styles.css">
+	<style>
+        table {
+            border-collapse: collapse;
+            font-size: 18px;
+            text-align: left;
+			border-radius: 20px;
+        }
+        th, td {
+            padding: 20px;
+            border: 1px solid #111616;
+        }
+        th {
+            background-color: #3056ef;
+        }
+        tr {
+            background-color: #7fdcda;
+        }
+        tr:hover {
+            background-color: #eb3636;
+        }
+    </style>
 </head>
 <body>
     <!-- add table here -->
+	<table>
+        <thead>
+            <tr>
+                <th>Game</th>
+                <th>Adriano</th>
+                <th>David</th>
+                <th>George</th>
+                <th>Isela</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bode of War</td>
+                <td>18</td>
+                <td>20</td>
+                <td>44</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Bohnanza</td>
+                <td>13</td>
+                <td>34</td>
+                <td>23</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Lhama</td>
+                <td>18</td>
+                <td>22</td>
+                <td>33</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Misty</td>
+                <td>23</td>
+                <td>17</td>
+                <td>45</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>Munchkin</td>
+                <td>21</td>
+                <td>40</td>
+                <td>25</td>
+                <td>0</td>
+            </tr>
+        </tbody>
+    </table>
 
         
 </body>
